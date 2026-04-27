@@ -15,15 +15,15 @@
 
 created 3 IAM users and attached 3 groups with different permissions
 
-![image.png](attachment:e70f7016-31e2-479e-8609-2469e511da87:image.png)
+![image.png](https://github.com/prithul7/AWS-Terraform-Assignments-/blob/2de8770c250f30c9f3d654e4bf175d3e0ae16cda/image2.png)
 
 created 3 groups with different permissions 
 
-![image.png](attachment:71703975-c99f-4369-8799-226361aa3a7b:image.png)
+![image.png](https://github.com/prithul7/AWS-Terraform-Assignments-/blob/2de8770c250f30c9f3d654e4bf175d3e0ae16cda/image3.png)
 
 IAm user prithul-admin given prithul-admin-group permissions :-
 
-![image.png](attachment:cb069e7b-787d-464d-8ede-da0a1456e4ed:image.png)
+![image.png](https://github.com/prithul7/AWS-Terraform-Assignments-/blob/2de8770c250f30c9f3d654e4bf175d3e0ae16cda/image4.png)
 
 3. Enable CloudWatch Monitoring
 - Create CPU utilization alarm
@@ -33,11 +33,11 @@ IAm user prithul-admin given prithul-admin-group permissions :-
 
 CPU utilization reaching threshold 70%
 
-![image.png](attachment:07c4025a-866f-4bf0-9e18-fa1089001f6e:image.png)
+![image.png](https://github.com/prithul7/AWS-Terraform-Assignments-/blob/2de8770c250f30c9f3d654e4bf175d3e0ae16cda/image5.png)
 
 got an email on CPU hike 
 
-![image.png](attachment:f1d53a4b-b32a-46ec-8c31-066be20067ea:image.png)
+![image.png](https://github.com/prithul7/AWS-Terraform-Assignments-/blob/2de8770c250f30c9f3d654e4bf175d3e0ae16cda/image6.png)
 
 4. RDS Deployment:
 - Launch RDS MySQL in private subnet
@@ -48,11 +48,11 @@ got an email on CPU hike
 
 created db subnet group :
 
-![image.png](attachment:41e2db35-8b6c-403c-91bf-2d3a2d042943:image.png)
+![image.png](https://github.com/prithul7/AWS-Terraform-Assignments-/blob/2de8770c250f30c9f3d654e4bf175d3e0ae16cda/image7.png)
 
 connected successfullly:
 
-![image.png](attachment:d5d4c289-2721-40b9-9a6d-1c0715285099:image.png)
+![image.png](https://github.com/prithul7/AWS-Terraform-Assignments-/blob/2de8770c250f30c9f3d654e4bf175d3e0ae16cda/image8.png)
 
 5. Disaster Recovery Setup Enable:
 - S3 Cross-Region Replication
@@ -60,7 +60,7 @@ connected successfullly:
 - AMI backup
 - Simulate region failure
 
-![image.png](attachment:6a1f92c0-10ae-42cb-ac21-a64f8af2a1d4:image.png)
+![image.png](https://github.com/prithul7/AWS-Terraform-Assignments-/blob/2de8770c250f30c9f3d654e4bf175d3e0ae16cda/image9.png)
 
 6. Build a Hub-and-Spoke VPC Architecture
 
@@ -79,20 +79,20 @@ Ensure:
 
 3 vpc created 
 
-![image.png](attachment:144b6615-5de8-44af-beae-fe540b6a3009:image.png)
+![image.png](https://github.com/prithul7/AWS-Terraform-Assignments-/blob/2de8770c250f30c9f3d654e4bf175d3e0ae16cda/image10.png)
 
 2 subnets created 
 
-![image.png](attachment:b985f9ab-41fe-4329-90d5-b378962075b5:image.png)
+![image.png](https://github.com/prithul7/AWS-Terraform-Assignments-/blob/2de8770c250f30c9f3d654e4bf175d3e0ae16cda/imag11.png)
 
 hub-Spoke1 peering connection
 
-![image.png](attachment:4bb25a25-958a-4bec-8e60-c4a9de1a1392:image.png)
+![image.png](https://github.com/prithul7/AWS-Terraform-Assignments-/blob/2de8770c250f30c9f3d654e4bf175d3e0ae16cda/image12.png)
 
 hub-Spoke2 peering connection
 
-![image.png](attachment:283b7eef-597f-46ed-991a-ae033e981187:image.png)
+![image.png](https://github.com/prithul7/AWS-Terraform-Assignments-/blob/2de8770c250f30c9f3d654e4bf175d3e0ae16cda/image13.png)
 
 3 rts for control traffic 
 
-![image.png](attachment:8a7717b3-88ab-4060-9dd3-86a35bc75e23:image.png)
+![image.png](https://github.com/prithul7/AWS-Terraform-Assignments-/blob/2de8770c250f30c9f3d654e4bf175d3e0ae16cda/image14.png)
