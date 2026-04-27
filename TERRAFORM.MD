@@ -9,9 +9,9 @@ terraform apply
 
 ans:
 
-![image.png](attachment:31e8a0c2-3f07-465d-910c-af12c01fae4e:image.png)
+![image.png](https://github.com/prithul7/AWS-Terraform-Assignments-/blob/a8a18d9074a3f3b96d8d46b804e4c320081d8c91/image15.png)
 
-![image.png](attachment:067b3631-2ff4-4073-9f96-702abdcedbab:image.png)
+![image.png](https://github.com/prithul7/AWS-Terraform-Assignments-/blob/a8a18d9074a3f3b96d8d46b804e4c320081d8c91/image16.png)
 
 
 
@@ -103,7 +103,7 @@ subnet_id      = aws_subnet.private.id
 route_table_id = aws_route_table.private_rt.id
 }
 
-![image.png](attachment:b18c5ffa-511e-4c48-bd61-5cb57db85345:image.png)
+![image.png](https://github.com/prithul7/AWS-Terraform-Assignments-/blob/a8a18d9074a3f3b96d8d46b804e4c320081d8c91/image17.png)
 
 
 
@@ -162,7 +162,7 @@ Name = "Private-EC2"
 }
 }
 
-![image.png](attachment:9503c32a-0a59-4676-9ac6-9a036cc3b493:image.png)
+![image.png](https://github.com/prithul7/AWS-Terraform-Assignments-/blob/a8a18d9074a3f3b96d8d46b804e4c320081d8c91/image18.png)
 
 
 
@@ -185,10 +185,10 @@ ans : IAM not allowed in learner lab
 
 after applying the config , two s3 buckets are created for dev and prod environments with unique names. Versioning is enabled conditionally, lifecycle rules are applied
 
-![image.png](attachment:53a095ee-1d9e-49d9-8e91-17201951cb38:image.png)
+![image.png](https://github.com/prithul7/AWS-Terraform-Assignments-/blob/a8a18d9074a3f3b96d8d46b804e4c320081d8c91/image19.png)
 
-![image.png](attachment:1319285d-1608-4f60-b380-81ab0a9f6c6f:image.png)
+![image.png](https://github.com/prithul7/AWS-Terraform-Assignments-/blob/a8a18d9074a3f3b96d8d46b804e4c320081d8c91/image20.png)
 
 lifecycle rule applied for both the buckets :
 
-![image.png](attachment:c7a5d92f-e202-4721-b8f4-9a980eb03c2c:image.png)
+![image.png](https://github.com/prithul7/AWS-Terraform-Assignments-/blob/a8a18d9074a3f3b96d8d46b804e4c320081d8c91/image21.png)
