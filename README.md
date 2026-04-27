@@ -5,7 +5,7 @@
 - Configure bucket policy for public read access
 - Enable versioning
 
-![image.png](attachment:861d0cfc-25c5-4b86-b920-e8d951aa3a0e:image.png)
+![image.png](https://github.com/prithul7/AWS-Terraform-Assignments-/blob/8c90901fe611f9aa17e4044a587e3fdfa2bc8fc1/image.png)
 
 2. Implement IAM Best Practices
 - Create IAM groups: Admin, Dev, ReadOnly
